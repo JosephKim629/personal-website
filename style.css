@@ -3,8 +3,35 @@ img {
 }
 body{
     text-align: center;
-    font-family: 'Arial';
+    font-family: 'Playfair Display';
     background: silver;
     color: darkblue;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+body a{
+    color: darkblue;
+    text-decoration: none;
+    margin: 0 15px;
+
+}
+footer{
+    background-color: #131e33;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+
+}
+
+main {
+    flex: 1;
+
 }
